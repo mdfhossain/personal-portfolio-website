@@ -1,0 +1,241 @@
+/* Common Stylesheet */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+}
+
+h2{
+    color: #EC4C7A;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 0 50px 0;
+}
+
+h4{
+    color: #202428;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+p{
+    color: #707070;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.btn-link{
+    background: linear-gradient(45deg, #EC5094, #ED4B73);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 40px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+section{
+    height: 100vh;
+    padding: 100px 0;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+
+/* Hero Area Stylesheet */
+.hero-area{
+    background-image: url(img/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-area h4{
+    margin: 150px 0 30px 0;
+}
+
+
+/* Biography Area Stylesheet */
+.biography-area{
+    background-image: url(img/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.biography-area h4{
+    margin: 350px 0 30px 0;
+}
+
+
+/* Latest Work Area Stylesheet */
+.latest-work-area{
+    text-align: center;
+    background-image: url(img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.latest-work-area img{
+    background: #ffffff;
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+}
+
+.latest-work-area img:first-of-type{
+    margin-left: 3%;
+}
+
+.latest-work-area h4{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+
+/* Testimonial Area Stylesheet */
+.testimonial-area{
+    text-align: center;
+    background-image: url(img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonial-area h4{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.client-info h5{
+    color: #202428;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.review{
+    margin: 70px 0 140px;
+}
+
+.review p{
+    color: #484848;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact-info{
+    background: linear-gradient(45deg, #EC5094, #ED4B73);
+    color: #ffffff;
+    display: inline-block;
+    padding: 40px 200px;
+    border-radius: 15px;
+}
+
+.contact-info p{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 20px;
+}
+
+.contact-info h5{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 0 30px 0;
+}
+
+
+/* Blog Area Stylesheet */
+.blog-area{
+    background-image: url(img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blog-area h4{
+    text-align: center;
+    margin: 0 0 150px 0;
+}
+
+.blog-item{
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+}
+
+.blog-item img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.blog-item:first-of-type{
+    margin-left: 3%;
+}
+
+.blog-item h5{
+    font-size: 24px;
+    margin: 30px 0 ;
+}
+
+.blog-item .date-author{
+    margin: 0;
+}
+
+.blog-item .blog-description{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* Footer Area Stylesheet */
+footer{
+    text-align: center;
+    margin: 75px 0;
+}
+
+footer h4{
+    margin-top: 0;
+}
+
+.social-icon{
+    margin-bottom: 25px;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li{
+    background: linear-gradient(45deg, #EC5094, #ED4B73);
+    display: inline-block;
+    padding: 10px 10px 0px 10px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: 500;
+}
